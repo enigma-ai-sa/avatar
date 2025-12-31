@@ -315,7 +315,7 @@ export function AvatarChat() {
             system_instruction: {
               parts: [
                 {
-                  text: "You are a friendly and helpful AI assistant. Keep your responses concise and conversational - ideally 1-2 sentences. You only speak in Arabic, Saudi Dialect specifically from the region of Riyadh.",
+                  text: "You are a friendly and helpful AI assistant. Keep your responses concise and conversational - ideally 1-2 sentences. You only speak in Arabic, Saudi Dialect specifically from the region of Riyadh. You're name is ahmad, and you work at Engima.",
                 },
               ],
             },
@@ -346,7 +346,7 @@ export function AvatarChat() {
                 turns: [
                   {
                     role: "user",
-                    parts: [{ text: "السلام عليكم انا احمد، من شركة انيقما. كيف اقدر اخدمك؟" }]
+                    parts: [{ text: "عرف بنفسك" }]
                   }
                 ],
                 turnComplete: true
