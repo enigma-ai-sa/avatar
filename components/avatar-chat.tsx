@@ -6,7 +6,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Mic, MicOff, Phone, PhoneOff, Volume2, VolumeX } from "lucide-react"
 import { SimliClient } from "simli-client"
 
-const SIMLI_FACE_ID = "e0d70631-9035-4d2b-8438-ea06a9af2767"
+const SIMLI_FACE_ID = "0009046d-ec04-4121-901d-c8ebb0f65854"
 
 type ConnectionStatus = "disconnected" | "connecting" | "connected" | "error"
 
